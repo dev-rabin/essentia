@@ -37,13 +37,12 @@ const Footer = () => {
           <p>+91-9810088877</p>
           <div className='h-36'>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d898176.0958351674!2d77.011904!3d28.434329!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19376d00001b%3A0x481f7bccb176ef9d!2sessentia%20-%20interior%20design%2C%20bespoke%20furniture%20manufacturer%20%26%20contractor%20in%20india!5e0!3m2!1sen!2sus!4v1741195743108!5m2!1sen!2us"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d56130.2393532381!2d77.02701011235362!3d28.445197039017746!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19376d00001b%3A0x481f7bccb176ef9d!2sessentia%20-%20interior%20design%2C%20bespoke%20furniture%20manufacturer%20%26%20contractor%20in%20india!5e0!3m2!1sen!2sus!4v1741199688963!5m2!1sen!2sus"
               width="400"
-              style={{ border: 0 }}
-              allowFullScreen
+              allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-            />
+            ></iframe>
           </div>
         </div>
       </div>
