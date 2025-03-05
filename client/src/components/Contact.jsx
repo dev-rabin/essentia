@@ -24,7 +24,7 @@ const Contact = () => {
 
             {/* Contact Form with Smooth Open & Close Animation */}
             <div onMouseOver={() => setShowContact(true)} onMouseLeave={() => setShowContact(false)}
-                className={`w-96 rounded-xl bg-white text-black p-5 shadow-lg fixed top-58 transition-transform duration-100 ease-in-out ${
+                className={`w-96 rounded-xl bg-white text-black p-5 shadow-2xl fixed top-58 transition-transform duration-100 ease-in-out ${
                     showContact
                         ? "transform origin-right rotate-y-0 opacity-100 right-12"
                         : "transform origin-right rotate-y-90 opacity-0 right-12 delay-200"

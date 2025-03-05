@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { motion } from "framer-motion";
+import CountUp from "react-countup";
 import Interior1 from "../assets/img/interior1.jpg";
 import Interior2 from "../assets/img/interior2.jpg";
 import Interior3 from "../assets/img/interior3.jpg";
@@ -95,14 +97,136 @@ const Home = () => {
           <p className='text-4xl text-center font-light w-[75%] mx-auto'>Essentia Environments – India’s Premier Interior Design & Furniture Craftsmanship</p>
           <div className='w-[80%] mx-auto text-center my-10 text-gray-700 text-lg font-light'>
             <p className='mb-8'>Essentia Environments reimagines luxurious living in India. As the <strong>best interior design company in India</strong>, we transform your vision from a basic concept into a spectacular reality. We stand out in India in that we provide a full design-to-build service, guaranteeing that every detail is completed properly. Imagine a home that represents your <strong>
-            unique craftsmanship
+              unique craftsmanship
             </strong> and taste, constructed with outstanding precision and creativity – that is the Essentia difference.</p>
 
-           <p className='mb-8'>
-           We strongly believe your house should be a personal haven. That’s why we provide the <strong>best interior design for home</strong> – mindfully curating a selection of high-end furnishings, beautiful décor, and custom-made pieces, all tailored by our manufacturer to your specific preferences. Whether you want a modern minimalist style or a classic, sumptuous design, our team combines sophistication and functionality to create all the spaces.
-           </p>
+            <p className='mb-8'>
+              We strongly believe your house should be a personal haven. That’s why we provide the <strong>best interior design for home</strong> – mindfully curating a selection of high-end furnishings, beautiful décor, and custom-made pieces, all tailored by our manufacturer to your specific preferences. Whether you want a modern minimalist style or a classic, sumptuous design, our team combines sophistication and functionality to create all the spaces.
+            </p>
 
-           <p> At Essentia Environments, we’re not just designing rooms; we’re crafting premier experiences.</p>
+            <p> At Essentia Environments, we’re not just designing rooms; we’re crafting premier experiences.</p>
+          </div>
+        </div>
+
+        {/* Features  */}
+
+        <div className='my-10'>
+          <div className="text-center">
+            <p className='text-4xl font-light mx-auto mb-2 relative inline-block after:content-[""] after:block after:w-full after:h-[1px] after:bg-black after:absolute after:left-0 after:bottom-[-8px]'>
+              features
+            </p>
+          </div>
+
+          {/* Animated Feature Cards */}
+          <div className='flex justify-center items-center gap-5 my-5'>
+            {/* Left Div - Slides from Left */}
+            <motion.div
+              initial={{ x: -100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
+              className='flex justify-between flex-col items-center gap-2'
+            >
+              <div><img src={Interior1} alt="" className='h-48 w-96 object-cover' /></div>
+              <div>Interior design</div>
+              <p className='text-center w-96 text-gray-600 font-light'>we are a multi-disciplinary team with a vast suite of capabilities.</p>
+            </motion.div>
+
+            {/* Center Div - Slides from Bottom */}
+            <motion.div
+              initial={{ y: 100, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
+              className='flex justify-between flex-col items-center gap-2'
+            >
+              <div><img src={Interior2} alt="" className='h-48 w-96 object-cover' /></div>
+              <div>bespoke furniture</div>
+              <p className='text-center w-96 text-gray-600 font-light'>indigenous design sense reflective of the contemporary and classic mores is our philosophy.</p>
+            </motion.div>
+
+            {/* Right Div - Slides from Right */}
+            <motion.div
+              initial={{ x: 100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
+              className='flex justify-between flex-col items-center gap-2'
+            >
+              <div><img src={Interior3} alt="" className='h-48 w-96 object-cover' /></div>
+              <div>decor</div>
+              <p className='text-center w-96 text-gray-600 font-light'>we create spaces that enhance the sense of being to bring joy and beauty to our patrons’ lives.</p>
+            </motion.div>
+          </div>
+        </div>
+
+        {/* Presence  */}
+        <div className='bg-[#F8F8F8] p-5'>
+          <div className="text-center">
+            <p className='text-4xl font-light mx-auto mb-2 relative inline-block after:content-[""] after:block after:w-full after:h-[1px] after:bg-black after:absolute after:left-0 after:bottom-[-8px]'>
+              presence
+            </p>
+          </div>
+
+          <div className='flex justify-center items-center gap-5 my-5'>
+            <motion.div
+              initial={{ x: -100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
+              className='flex justify-around items-center flex-col gap-4 bg-white p-5 h-52 w-96'>
+              <div><p className='text-7xl font-light mx-auto mb-2 relative inline-block after:content-[""] after:block after:w-full after:h-[1px] after:bg-black after:absolute after:left-0 after:bottom-[-8px]'>
+                <CountUp end={25} duration={2} />+
+              </p></div>
+              <p className=' text-gray-600'>years experience</p>
+            </motion.div>
+
+            <motion.div
+              initial={{ y: 100, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
+              className='flex justify-around items-center flex-col gap-4 bg-white p-5 h-52 w-96'>
+              <div><p className='text-7xl font-light mx-auto mb-2 relative inline-block after:content-[""] after:block after:w-full after:h-[1px] after:bg-black after:absolute after:left-0 after:bottom-[-8px]'>
+                <CountUp end={1000} duration={2} />+
+              </p></div>
+              <p className=' text-gray-600'>projects globally</p>
+            </motion.div>
+
+            <motion.div
+              initial={{ x: 100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
+              className='flex justify-around items-center flex-col gap-4 bg-white p-5 h-52 w-96'>
+              <div><p className='text-7xl font-light mx-auto mb-2 relative inline-block after:content-[""] after:block after:w-full after:h-[1px] after:bg-black after:absolute after:left-0 after:bottom-[-8px]'>
+                <CountUp end={700} duration={2} />+
+              </p></div>
+              <p className=' text-gray-600'>team members</p>
+            </motion.div>
+          </div>
+          <div>
+          </div>
+        </div>
+
+        {/* Latest Creations  */}
+        <div className='my-5 p-5'>
+          <div className="text-center">
+            <p className='text-4xl font-light mx-auto mb-2 relative inline-block after:content-[""] after:block after:w-full after:h-[1px] after:bg-black after:absolute after:left-0 after:bottom-[-8px]'>
+              latest creations
+            </p>
+          </div>
+          <div className='flex justify-center items-center gap-10 mt-8'>
+            <motion.div
+              initial={{ x: -100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
+            >
+              <div><img src={Exterior2} alt="" className=' h-72 w-[550px]' /></div>
+              <p className='text-center my-4 text-lg font-light'>trends fade. it is the style that speaks for itself and stays</p>
+            </motion.div>
+            <motion.div
+              initial={{ x: 100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
+            >
+              <div><img src={Exterior2} alt="" className=' h-72 w-[550px]' /></div>
+              <p className='text-center my-4 text-lg font-light'>trends fade. it is the style that speaks for itself and stays</p>
+            </motion.div>
           </div>
         </div>
       </div>
