@@ -8,6 +8,7 @@ import About from './pages/About'
 import ElevationDesign from './pages/ElevationDesign'
 import Contact from './components/Contact'
 import LandscapeDesign from './pages/LandscapeDesign'
+import TurnkeyExecution from './pages/TurnkeyExecution'
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
           <Route path='/interiors-and-designs' element={<InteriorDesign/>}/>
           <Route path='/elevation-design' element={<ElevationDesign/>}/>
           <Route path="landscape-designing" element={<LandscapeDesign/>}/>
+          <Route path='/turnkey-execution' element={<TurnkeyExecution/>}/>
         </Routes>
       <Footer/>
       </BrowserRouter>

@@ -19,12 +19,16 @@ const Navbar = () => {
         </Link>
       </div>
       <div className=''>
-        <p className=' text-6xl text-[#1B1B1B]'>essentia<span className=' text-lg'>&reg;</span></p>
+        <Link to={"/"} className='no-underline text-inherit'>
+          <p className=' text-6xl text-[#1B1B1B]'>essentia<span className=' text-lg'>&reg;</span></p>
+        </Link>
       </div>
       <div className='flex justify-between items-center text-sm gap-3 w-96 font-semibold'>
         <select><option value="">bespoke furniture</option></select>
         <select><option value="">projects</option></select>
-        <select><option value="">turnkey execution</option></select>
+        <Link to="/turnkey-execution" className='no-underline text-inherit'>
+          <p>turnkey execution</p>
+        </Link>
       </div>
     </div>
   )
