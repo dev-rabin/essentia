@@ -14,7 +14,9 @@ const Navbar = () => {
         <Link to="/elevation-design" className='no-underline text-inherit'>
           <p>elevation design</p>
         </Link>
-        <p>landscape design</p>
+        <Link to="/landscape-designing" className='no-underline text-inherit'>
+          <p>landscape design</p>
+        </Link>
       </div>
       <div className=''>
         <p className=' text-6xl text-[#1B1B1B]'>essentia<span className=' text-lg'>&reg;</span></p>

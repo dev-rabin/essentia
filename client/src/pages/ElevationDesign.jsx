@@ -1,5 +1,4 @@
 import React from 'react';
-import Contact from '../components/Contact';
 import ElevationPic from "../assets/img/exterior2.jpg"
 import { Link } from 'react-router-dom';
 
@@ -7,7 +6,6 @@ const ElevationDesign = () => {
     return (
         <>
             <section>
-                <Contact />
                 <div>
                     <img src={ElevationPic} alt="" className='w-full h-[500px] object-cover mt-20' />
                 </div>
@@ -52,7 +50,7 @@ const ElevationDesign = () => {
 
                                 {/* Water Filling Effect */}
                                 <div className="absolute inset-0 overflow-hidden">
-                                    <div className="absolute inset-0 bg-black opacity-60 translate-y-full group-hover:translate-y-0 transition-transform duration-400 ease-in-out"></div>
+                                    <div className="absolute inset-0 bg-black opacity-40 translate-y-full group-hover:translate-y-0 transition-transform duration-400 ease-in-out"></div>
                                 </div>
 
                                 {/* Overlay Text */}

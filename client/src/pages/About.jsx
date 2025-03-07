@@ -1,5 +1,4 @@
 import React from 'react'
-import Contact from '../components/Contact';
 import Interior2 from "../assets/img/interior2.jpg";
 import Milestones from '../components/Milestones';
 import ImageCard from '../components/ImageCard';
@@ -7,7 +6,6 @@ import ImageCard from '../components/ImageCard';
 const About = () => {
     return (
         <>
-            <Contact />
             <section>
                 <div>
                     <img src={Interior2} alt="" className='w-full h-[550px] object-cover ' />

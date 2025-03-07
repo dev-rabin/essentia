@@ -5,7 +5,6 @@ import Interior2 from "../assets/img/interior2.jpg";
 import Interior3 from "../assets/img/interior3.jpg";
 import Exterior1 from "../assets/img/exterior1.jpg";
 import Exterior2 from "../assets/img/exterior2.jpg";
-import Contact from '../components/Contact';
 import DecorIcon from "../assets/img/decorIcon.png";
 import ElevationIcon from "../assets/img/elevationIcon.png";
 import FurnitureIcon from "../assets/img/furnitureIcon.png";
@@ -68,7 +67,6 @@ const Home = () => {
             &#10095;
           </button>
         </div>
-        <Contact />
 
         {/* Links Icons with subtitles */}
         <div className='py-8'>

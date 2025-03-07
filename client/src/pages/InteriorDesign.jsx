@@ -1,8 +1,6 @@
 import React from 'react';
 import Interior3 from "../assets/img/interior3.jpg";
-import Interior1 from "../assets/img/interior1.jpg";
 import Interior2 from "../assets/img/interior2.jpg";
-import Contact from '../components/Contact';
 import ImageCard from '../components/ImageCard';
 
 const InteriorDesign = () => {
@@ -41,7 +39,6 @@ const InteriorDesign = () => {
                     </div>
                 </div>
             </section>
-            <Contact />
         </>
     )
 }

@@ -6,6 +6,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import InteriorDesign from './pages/InteriorDesign'
 import About from './pages/About'
 import ElevationDesign from './pages/ElevationDesign'
+import Contact from './components/Contact'
+import LandscapeDesign from './pages/LandscapeDesign'
 
 
 const App = () => {
@@ -13,11 +15,13 @@ const App = () => {
     <>
       <BrowserRouter>
       <Navbar/>
+      <Contact/>
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path="/about-us" element={<About/>}/>
           <Route path='/interiors-and-designs' element={<InteriorDesign/>}/>
           <Route path='/elevation-design' element={<ElevationDesign/>}/>
+          <Route path="landscape-designing" element={<LandscapeDesign/>}/>
         </Routes>
       <Footer/>
       </BrowserRouter>
