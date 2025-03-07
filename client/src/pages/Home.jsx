@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from "framer-motion";
-import CountUp from "react-countup";
 import Interior1 from "../assets/img/interior1.jpg";
 import Interior2 from "../assets/img/interior2.jpg";
 import Interior3 from "../assets/img/interior3.jpg";
@@ -11,6 +10,7 @@ import DecorIcon from "../assets/img/decorIcon.png";
 import ElevationIcon from "../assets/img/elevationIcon.png";
 import FurnitureIcon from "../assets/img/furnitureIcon.png";
 import InteriorIcon from "../assets/img/interiorIcon.png";
+import Milestones from '../components/Milestones';
 
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -158,50 +158,7 @@ const Home = () => {
         </div>
 
         {/* Presence  */}
-        <div className='bg-[#F8F8F8] p-5'>
-          <div className="text-center">
-            <p className='text-4xl font-light mx-auto mb-2 relative inline-block after:content-[""] after:block after:w-full after:h-[1px] after:bg-black after:absolute after:left-0 after:bottom-[-8px]'>
-              presence
-            </p>
-          </div>
-
-          <div className='flex justify-center items-center gap-5 my-5'>
-            <motion.div
-              initial={{ x: -100, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
-              className='flex justify-around items-center flex-col gap-4 bg-white p-5 h-52 w-96'>
-              <div><p className='text-7xl font-light mx-auto mb-2 relative inline-block after:content-[""] after:block after:w-full after:h-[1px] after:bg-black after:absolute after:left-0 after:bottom-[-8px]'>
-                <CountUp end={25} duration={2} />+
-              </p></div>
-              <p className=' text-gray-600'>years experience</p>
-            </motion.div>
-
-            <motion.div
-              initial={{ y: 100, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
-              className='flex justify-around items-center flex-col gap-4 bg-white p-5 h-52 w-96'>
-              <div><p className='text-7xl font-light mx-auto mb-2 relative inline-block after:content-[""] after:block after:w-full after:h-[1px] after:bg-black after:absolute after:left-0 after:bottom-[-8px]'>
-                <CountUp end={1000} duration={2} />+
-              </p></div>
-              <p className=' text-gray-600'>projects globally</p>
-            </motion.div>
-
-            <motion.div
-              initial={{ x: 100, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
-              className='flex justify-around items-center flex-col gap-4 bg-white p-5 h-52 w-96'>
-              <div><p className='text-7xl font-light mx-auto mb-2 relative inline-block after:content-[""] after:block after:w-full after:h-[1px] after:bg-black after:absolute after:left-0 after:bottom-[-8px]'>
-                <CountUp end={700} duration={2} />+
-              </p></div>
-              <p className=' text-gray-600'>team members</p>
-            </motion.div>
-          </div>
-          <div>
-          </div>
-        </div>
+        <Milestones title="presence"/>
 
         {/* Latest Creations  */}
         <div className='my-5 p-5'>

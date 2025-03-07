@@ -3,11 +3,12 @@ import Interior3 from "../assets/img/interior3.jpg";
 import Interior1 from "../assets/img/interior1.jpg";
 import Interior2 from "../assets/img/interior2.jpg";
 import Contact from '../components/Contact';
+import ImageCard from '../components/ImageCard';
 
 const InteriorDesign = () => {
     return (
         <>
-            <div>
+            <section>
                 <div>
                     <img src={Interior3} alt="" className='w-full h-[550px] object-cover' />
                 </div>
@@ -35,39 +36,11 @@ const InteriorDesign = () => {
 
                 <div className='my-5 p-5'>
                     <div className='flex justify-center items-center gap-10 mt-8'>
-
-                        {/* Residential */}
-                        <div className='relative overflow-hidden'>
-                            <div className='overflow-hidden rounded-lg'>
-                                <img
-                                    src={Interior2}
-                                    alt=""
-                                    className='h-[500px] w-[590px] transform transition-transform duration-400 ease-in-out hover:scale-125 cursor-pointer'
-                                />
-                            </div>
-                            <p className='text-center my-4 text-lg font-light shadow-xl px-5 py-10 w-[500px] mx-auto bg-white opacity-90 -mt-5 text-gray-900 rounded-xl'>
-                                residential
-                            </p>
-                        </div>
-
-                        {/* Commercial */}
-                        <div className='relative overflow-hidden'>
-                            <div className='overflow-hidden rounded-lg'>
-                                <img
-                                    src={Interior1}
-                                    alt=""
-                                    className='h-[500px] w-[590px] transform transition-transform duration-400 ease-in-out hover:scale-125 cursor-pointer'
-                                />
-                            </div>
-                            <p className='text-center my-4 text-lg font-light shadow-xl px-5 py-10 w-[500px] mx-auto bg-white opacity-90 -mt-5 text-gray-900 rounded-xl'>
-                                commercial
-                            </p>
-                        </div>
-
+                    <ImageCard title="residential" imageSrc={Interior3} imageHeight="h-[500px] w-[590px]" imageWidth="w-[590px]" titleWidth="w-[500px]"/>
+                    <ImageCard title="commercial" imageSrc={Interior2} imageHeight="h-[500px] w-[590px]" imageWidth="w-[590px]" titleWidth="w-[500px]"/>
                     </div>
                 </div>
-
-            </div>
+            </section>
             <Contact />
         </>
     )

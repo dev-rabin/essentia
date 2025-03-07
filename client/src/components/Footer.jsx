@@ -3,7 +3,7 @@ import { FaFacebook, FaTwitter, FaYoutube, FaInstagram, FaPinterest, FaLinkedin,
 
 const Footer = () => {
   return (
-    <div className='bg-black h-96 w-full text-white py-10 font-light text-lg'>
+    <footer className='bg-black h-96 w-full text-white py-10 font-light text-lg'>
       <div className='m-auto flex justify-around items-center w-full'>
         <div className='flex justify-between items-start flex-col gap-2'>
           <div className='text-3xl'>find us</div>
@@ -46,7 +46,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   )
 }
 
