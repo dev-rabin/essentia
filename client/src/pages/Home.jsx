@@ -37,7 +37,7 @@ const Home = () => {
 
   return (
     <>
-      <div>
+      <div className='w-full'>
         <div className="relative w-full h-[800px] overflow-hidden">
           <div
             className="flex transition-transform duration-500 ease-in-out"
@@ -70,20 +70,20 @@ const Home = () => {
 
         {/* Links Icons with subtitles */}
         <div className='py-8'>
-          <div className=' mx-auto flex justify-around items-center'>
-            <div className='flex justify-center items-center flex-col gap-2'>
+          <div className=' mx-auto flex justify-around items-center flex-wrap'>
+            <div className='flex md:justify-center justify-between items-center flex-col gap-2 h-36 w-42'>
               <div><img src={InteriorIcon} alt="" className='h-14 w-14 opacity-80' /></div>
               <div className='text-lg font-semibold'>interior design</div>
             </div>
-            <div className='flex justify-center items-center flex-col gap-2'>
+            <div className='flex md:justify-center justify-between items-center flex-col gap-2 h-36 w-42'>
               <div><img src={ElevationIcon} alt="" className='h-14 w-14 opacity-80' /></div>
               <div className='text-lg font-semibold'>elevation design</div>
             </div>
-            <div className='flex justify-center items-center flex-col gap-2'>
+            <div className='flex md:justify-center justify-between items-center flex-col gap-2 h-36 w-42'>
               <div><img src={FurnitureIcon} alt="" className='h-14 w-14 opacity-80' /></div>
               <div className='text-lg font-semibold'>bespoke furniture</div>
             </div>
-            <div className='flex justify-center items-center flex-col gap-2'>
+            <div className='flex md:justify-center justify-between items-center flex-col gap-2 h-36 w-42'>
               <div><img src={DecorIcon} alt="" className='h-14 w-14 opacity-80' /></div>
               <div className='text-lg font-semibold'>decor</div>
             </div>
@@ -116,7 +116,7 @@ const Home = () => {
           </div>
 
           {/* Animated Feature Cards */}
-          <div className='flex justify-center items-center gap-5 my-5'>
+          <div className='flex justify-center items-center flex-wrap gap-5 my-5'>
             {/* Left Div - Slides from Left */}
             <motion.div
               initial={{ x: -100, opacity: 0 }}
@@ -165,7 +165,7 @@ const Home = () => {
               latest creations
             </p>
           </div>
-          <div className='flex justify-center items-center gap-10 mt-8'>
+          <div className='flex justify-center items-center gap-10 mt-8 flex-wrap'>
             <motion.div
               initial={{ x: -100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}

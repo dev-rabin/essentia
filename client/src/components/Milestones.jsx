@@ -12,7 +12,7 @@ const Milestones = ({title}) => {
             </p>
           </div>
 
-          <div className='flex justify-center items-center gap-5 my-5'>
+          <div className='flex justify-center items-center flex-wrap gap-5 my-5'>
             <motion.div
               initial={{ x: -100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
