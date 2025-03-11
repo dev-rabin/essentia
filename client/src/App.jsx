@@ -9,6 +9,7 @@ import ElevationDesign from './pages/ElevationDesign'
 import Contact from './components/Contact'
 import LandscapeDesign from './pages/LandscapeDesign'
 import TurnkeyExecution from './pages/TurnkeyExecution'
+import './App.css';
 
 
 const App = () => {

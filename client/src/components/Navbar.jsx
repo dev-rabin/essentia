@@ -31,8 +31,8 @@ const Navbar = () => {
       {/* Logo */}
       <div className='text-center flex-1'>
         <Link to='/' className='no-underline text-inherit'>
-          <p className='text-3xl md:text-4xl lg:text-3xl xl:text-6xl text-[#1B1B1B]'>
-            essentia<span className='text-lg'>&reg;</span>
+          <p className='text-3xl md:text-4xl lg:text-3xl xl:text-4xl text-[#1B1B1B] font-semibold logo-heading'>
+            shub shiv living<span className='text-lg'>&reg;</span>
           </p>
         </Link>
       </div>
@@ -44,19 +44,19 @@ const Navbar = () => {
           onMouseEnter={() => setBespokeMenu(true)}
           onMouseLeave={() => setBespokeMenu(false)}
         >
-          <div className='flex items-center gap-1 px-2 py-2 hover:text-[#B97B4F]'>
+          <div className='flex items-center gap-1 px-2 py-5 hover:text-[#B97B4F]'>
             bespoke furniture <FaAngleDown />
           </div>
         </div>
 
         <div
-          className='cursor-pointer px-2 py-2 flex items-center gap-1 hover:text-[#B97B4F]'
+          className='cursor-pointer px-2 py-5 flex items-center gap-1 hover:text-[#B97B4F]'
           onMouseEnter={() => setProjectsMenu(true)}
           onMouseLeave={() => setProjectsMenu(false)}
         >
           projects <FaAngleDown />
         </div>
-        <Link to='/turnkey-execution' className='no-underline text-inherit hover:text-[#B97B4F] px-2 py-2'>
+        <Link to='/turnkey-execution' className='no-underline text-inherit hover:text-[#B97B4F] px-2 py-5'>
           turnkey execution
         </Link>
       </div>
@@ -70,7 +70,7 @@ const Navbar = () => {
 
       {/* Mobile Dropdown Menu */}
       {menuOpen && (
-        <div className='absolute top-16 left-0 w-full bg-white shadow-md flex flex-col items-center py-4 lg:hidden'>
+        <div className='absolute top-14 left-0 w-full bg-white shadow-md flex flex-col items-center py-4 lg:hidden'>
           <Link to='/about-us' className='py-2 text-sm' onClick={() => setMenuOpen(false)}>
             about us
           </Link>
@@ -100,8 +100,10 @@ const Navbar = () => {
             projects <FaAngleDown />
           </div>
           {projectsMenu && (
-            <div className='w-full bg-gray-100 px-4 py-2'>
-              <Projects />
+            <div className='w-full bg-gray-100 px-4 py-2 border h-72 overflow-y-auto'>
+              <div className="space-y-4 p-2">
+                <Projects />
+              </div>
             </div>
           )}
           <Link to='/turnkey-execution' className='py-2 text-sm' onClick={() => setMenuOpen(false)}>

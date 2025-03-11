@@ -33,9 +33,11 @@ const InteriorDesign = () => {
                 </div>
 
                 <div className='my-5 p-5'>
-                    <div className='flex justify-center items-center gap-10 mt-8'>
-                    <ImageCard title="residential" imageSrc={Interior3} imageHeight="h-[500px] w-[590px]" imageWidth="w-[590px]" titleWidth="w-[500px]"/>
-                    <ImageCard title="commercial" imageSrc={Interior2} imageHeight="h-[500px] w-[590px]" imageWidth="w-[590px]" titleWidth="w-[500px]"/>
+                    <div className='flex justify-center items-center gap-10 mt-8 flex-wrap'>
+                    <ImageCard title="residential" imageSrc={Interior3} imageHeight="h-[500px] w-[590px]" imageWidth="w-[590px]" 
+                    titleWidth="md:w-[500px] sm:w-[450px] w-[350px]"/>
+                    <ImageCard title="commercial" imageSrc={Interior2} imageHeight="h-[500px] w-[590px]" imageWidth="w-[590px]" 
+                    titleWidth="md:w-[500px] sm:w-[450px] w-[350px]"/>
                     </div>
                 </div>
             </section>

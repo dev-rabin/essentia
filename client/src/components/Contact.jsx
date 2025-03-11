@@ -18,7 +18,7 @@ const Contact = () => {
                 </div>
                 <div className="[writing-mode:vertical-rl] bg-white text-black p-3 flex justify-center items-center gap-1">
                     <div className="rotate-180">contact us</div>
-                    <MdMailOutline className="rotate-270 ml-1" />
+                    <MdMailOutline className="rotate-270 ml-0.5" />
                 </div>
             </div>
 

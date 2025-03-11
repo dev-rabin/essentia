@@ -24,7 +24,6 @@ const Home = () => {
     return () => clearInterval(interval);
   }, [images.length]);
 
-
   const nextSlide = () => {
     setCurrentSlide((prevSlide) => (prevSlide + 1) % images.length);
   };
@@ -39,20 +38,18 @@ const Home = () => {
     <>
       <div className='w-full'>
         <div className="relative w-full h-[800px] overflow-hidden">
-          <div
-            className="flex transition-transform duration-500 ease-in-out"
-          >
+          <div className="flex transition-transform duration-500 ease-in-out">
             {images.map((image, index) => (
               <div
                 key={index}
-                className={` absolute inset-0 w-full h-full transition-opacity duration-[1200ms] ease-in-out ${index === currentSlide ? "opacity-100" : "opacity-0"
-                  }`}
+                className={`absolute inset-0 w-full h-full transition-opacity duration-[1200ms] ease-in-out ${
+                  index === currentSlide ? "opacity-100" : "opacity-0"
+                }`}
               >
                 <img src={image} alt={`Slide ${index + 1}`} className="w-full h-full object-cover" />
               </div>
             ))}
           </div>
-
 
           <button
             onClick={prevSlide}
@@ -70,7 +67,7 @@ const Home = () => {
 
         {/* Links Icons with subtitles */}
         <div className='py-8'>
-          <div className=' mx-auto flex justify-around items-center flex-wrap'>
+          <div className='mx-auto flex justify-around items-center flex-wrap'>
             <div className='flex md:justify-center justify-between items-center flex-col gap-2 h-36 w-42'>
               <div><img src={InteriorIcon} alt="" className='h-14 w-14 opacity-80' /></div>
               <div className='text-lg font-semibold'>interior design</div>
@@ -107,7 +104,6 @@ const Home = () => {
         </div>
 
         {/* Features  */}
-
         <div className='my-10'>
           <div className="text-center">
             <p className='text-4xl font-light mx-auto mb-2 relative inline-block after:content-[""] after:block after:w-full after:h-[1px] after:bg-black after:absolute after:left-0 after:bottom-[-8px]'>
@@ -120,7 +116,8 @@ const Home = () => {
             {/* Left Div - Slides from Left */}
             <motion.div
               initial={{ x: -100, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
               className='flex justify-between flex-col items-center gap-2'
             >
@@ -132,7 +129,8 @@ const Home = () => {
             {/* Center Div - Slides from Bottom */}
             <motion.div
               initial={{ y: 100, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
               className='flex justify-between flex-col items-center gap-2'
             >
@@ -144,7 +142,8 @@ const Home = () => {
             {/* Right Div - Slides from Right */}
             <motion.div
               initial={{ x: 100, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
               className='flex justify-between flex-col items-center gap-2'
             >
@@ -156,7 +155,7 @@ const Home = () => {
         </div>
 
         {/* Presence  */}
-        <Milestones title="presence"/>
+        <Milestones title="presence" />
 
         {/* Latest Creations  */}
         <div className='my-5 p-5'>
@@ -168,18 +167,20 @@ const Home = () => {
           <div className='flex justify-center items-center gap-10 mt-8 flex-wrap'>
             <motion.div
               initial={{ x: -100, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
             >
-              <div><img src={Exterior2} alt="" className=' h-72 w-[550px]' /></div>
+              <div><img src={Exterior2} alt="" className='h-72 w-[550px]' /></div>
               <p className='text-center my-4 text-lg font-light'>trends fade. it is the style that speaks for itself and stays</p>
             </motion.div>
             <motion.div
               initial={{ x: 100, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              viewport={{ once: true, amount: 0.5 }}
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
             >
-              <div><img src={Exterior2} alt="" className=' h-72 w-[550px]' /></div>
+              <div><img src={Exterior2} alt="" className='h-72 w-[550px]' /></div>
               <p className='text-center my-4 text-lg font-light'>trends fade. it is the style that speaks for itself and stays</p>
             </motion.div>
           </div>

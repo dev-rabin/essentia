@@ -7,7 +7,7 @@ const ElevationDesign = () => {
         <>
             <section>
                 <div>
-                    <img src={ElevationPic} alt="" className='w-full h-[500px] object-cover mt-20' />
+                    <img src={ElevationPic} alt="" className='w-full h-[550px] object-cover' />
                 </div>
                 <header className='my-16'>
                     <div className="text-center">
@@ -40,7 +40,7 @@ const ElevationDesign = () => {
                 <main className="my-10 m-auto w-[80%]">
                     <div className="flex justify-between items-center flex-wrap gap-5">
                         {[...Array(7)].map((_, index) => (
-                            <div key={index} className="relative w-[590px] h-96 overflow-hidden group">
+                            <div key={index} className="relative xl:w-[590px] lg:w-[390px] h-96 overflow-hidden group">
                                 {/* Image */}
                                 <img
                                     src={ElevationPic}

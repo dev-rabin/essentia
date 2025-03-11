@@ -6,7 +6,7 @@ const LandscapeDesign = () => {
     return (
         <section>
             <div>
-                <img src={ElevationPic} alt="" className='w-full h-[500px] object-cover mt-20 ' />
+                <img src={ElevationPic} alt="" className='w-full h-[550px] object-cover' />
             </div>
             <header className='my-16'>
                 <div className="text-center">

@@ -11,7 +11,7 @@ const TurnkeyExecution = () => {
   return (
     <section>
       <div>
-        <img src={Interior3} alt="" className='w-full h-[500px] object-cover mt-20 ' />
+        <img src={Interior3} alt="" className='w-full h-[550px] object-cover' />
       </div>
       <header className='my-16'>
         <div className="text-center">
@@ -47,18 +47,18 @@ const TurnkeyExecution = () => {
 
       <main className='my-5 p-5'>
         <div className='flex justify-center items-center gap-10 mt-8 flex-wrap'>
-          <ImageCard title="apartment camellias (gurgaon)" imageSrc={Interior1} imageHeight="h-[450px] w-[590px]" imageWidth="w-[590px]" titleWidth="w-[500px]" />
-          <ImageCard title="whiteland snowflat (gurgaon)" imageSrc={Interior3} imageHeight="h-[450px] w-[590px]" imageWidth="w-[590px]" titleWidth="w-[500px]" />
-          <ImageCard title="show flat jaipur" imageSrc={Interior2} imageHeight="h-[450px] w-[590px]" imageWidth="w-[590px]" titleWidth="w-[500px]" />
-          <ImageCard title="office gurgaon" imageSrc={Exterior1} imageHeight="h-[450px] w-[590px]" imageWidth="w-[590px]" titleWidth="w-[500px]" />
-          <ImageCard title="office-gwalior" imageSrc={Interior3} imageHeight="h-[450px] w-[590px]" imageWidth="w-[590px]" titleWidth="w-[500px]" />
-          <ImageCard title="villa-faridabad" imageSrc={Interior3} imageHeight="h-[450px] w-[590px]" imageWidth="w-[590px]" titleWidth="w-[500px]" />
-          <ImageCard title="elan sales gallery gurgaon" imageSrc={Exterior2} imageHeight="h-[450px] w-[590px]" imageWidth="w-[590px]" titleWidth="w-[500px]" />
-          <ImageCard title="farm house vasant kunj" imageSrc={Interior3} imageHeight="h-[450px] w-[590px]" imageWidth="w-[590px]" titleWidth="w-[500px]" />
-          <ImageCard title="apartment magnolias" imageSrc={Interior3} imageHeight="h-[450px] w-[590px]" imageWidth="w-[590px]" titleWidth="w-[500px]" />
-          <ImageCard title="villa faridabad" imageSrc={Exterior1} imageHeight="h-[450px] w-[590px]" imageWidth="w-[590px]" titleWidth="w-[500px]" />
-          <ImageCard title="villa maharani bagh" imageSrc={Interior3} imageHeight="h-[450px] w-[590px]" imageWidth="w-[590px]" titleWidth="w-[500px]" />
-          <ImageCard title="villa maharani bagh" imageSrc={Exterior2} imageHeight="h-[450px] w-[590px]" imageWidth="w-[590px]" titleWidth="w-[500px]" />
+          <ImageCard title="apartment camellias (gurgaon)" imageSrc={Interior1} imageHeight="h-[450px] w-[590px]" imageWidth="w-[590px]" titleWidth="md:w-[500px] sm:w-[380px]" />
+          <ImageCard title="whiteland snowflat (gurgaon)" imageSrc={Interior3} imageHeight="h-[450px] w-[590px]" imageWidth="w-[590px]" titleWidth="md:w-[500px] sm:w-[380px]" />
+          <ImageCard title="show flat jaipur" imageSrc={Interior2} imageHeight="h-[450px] w-[590px]" imageWidth="w-[590px]" titleWidth="md:w-[500px] sm:w-[380px]" />
+          <ImageCard title="office gurgaon" imageSrc={Exterior1} imageHeight="h-[450px] w-[590px]" imageWidth="w-[590px]" titleWidth="md:w-[500px] sm:w-[380px]" />
+          <ImageCard title="office-gwalior" imageSrc={Interior3} imageHeight="h-[450px] w-[590px]" imageWidth="w-[590px]" titleWidth="md:w-[500px] sm:w-[380px]" />
+          <ImageCard title="villa-faridabad" imageSrc={Interior3} imageHeight="h-[450px] w-[590px]" imageWidth="w-[590px]" titleWidth="md:w-[500px] sm:w-[380px]" />
+          <ImageCard title="elan sales gallery gurgaon" imageSrc={Exterior2} imageHeight="h-[450px] w-[590px]" imageWidth="w-[590px]" titleWidth="md:w-[500px] sm:w-[380px]" />
+          <ImageCard title="farm house vasant kunj" imageSrc={Interior3} imageHeight="h-[450px] w-[590px]" imageWidth="w-[590px]" titleWidth="md:w-[500px] sm:w-[380px]" />
+          <ImageCard title="apartment magnolias" imageSrc={Interior3} imageHeight="h-[450px] w-[590px]" imageWidth="w-[590px]" titleWidth="md:w-[500px] sm:w-[380px]" />
+          <ImageCard title="villa faridabad" imageSrc={Exterior1} imageHeight="h-[450px] w-[590px]" imageWidth="w-[590px]" titleWidth="md:w-[500px] sm:w-[380px]" />
+          <ImageCard title="villa maharani bagh" imageSrc={Interior3} imageHeight="h-[450px] w-[590px]" imageWidth="w-[590px]" titleWidth="md:w-[500px] sm:w-[380px]" />
+          <ImageCard title="villa maharani bagh" imageSrc={Exterior2} imageHeight="h-[450px] w-[590px]" imageWidth="w-[590px]" titleWidth="md:w-[500px] sm:w-[380px]" />
         </div>
       </main>
       <main className='text-center my-10'>
