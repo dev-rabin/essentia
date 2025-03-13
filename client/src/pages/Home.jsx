@@ -10,6 +10,7 @@ import ElevationIcon from "../assets/img/elevationIcon.png";
 import FurnitureIcon from "../assets/img/furnitureIcon.png";
 import InteriorIcon from "../assets/img/interiorIcon.png";
 import Milestones from '../components/Milestones';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -68,22 +69,30 @@ const Home = () => {
         {/* Links Icons with subtitles */}
         <div className='py-8'>
           <div className='mx-auto flex justify-around items-center flex-wrap'>
-            <div className='flex md:justify-center justify-between items-center flex-col gap-2 h-36 w-42'>
+           <Link to="/interiors-and-designs">
+           <div className='flex md:justify-center justify-between items-center flex-col gap-2 h-36 w-42'>
               <div><img src={InteriorIcon} alt="" className='h-14 w-14 opacity-80' /></div>
               <div className='text-lg font-semibold'>interior design</div>
             </div>
-            <div className='flex md:justify-center justify-between items-center flex-col gap-2 h-36 w-42'>
+           </Link>
+          <Link to='/elevation-design'>
+          <div className='flex md:justify-center justify-between items-center flex-col gap-2 h-36 w-42'>
               <div><img src={ElevationIcon} alt="" className='h-14 w-14 opacity-80' /></div>
               <div className='text-lg font-semibold'>elevation design</div>
             </div>
-            <div className='flex md:justify-center justify-between items-center flex-col gap-2 h-36 w-42'>
+          </Link>
+          <Link to='/bespoke-furniture'>
+          <div className='flex md:justify-center justify-between items-center flex-col gap-2 h-36 w-42'>
               <div><img src={FurnitureIcon} alt="" className='h-14 w-14 opacity-80' /></div>
               <div className='text-lg font-semibold'>bespoke furniture</div>
             </div>
-            <div className='flex md:justify-center justify-between items-center flex-col gap-2 h-36 w-42'>
+          </Link>
+          <Link to='/decor'>
+          <div className='flex md:justify-center justify-between items-center flex-col gap-2 h-36 w-42'>
               <div><img src={DecorIcon} alt="" className='h-14 w-14 opacity-80' /></div>
               <div className='text-lg font-semibold'>decor</div>
             </div>
+          </Link>
           </div>
         </div>
 

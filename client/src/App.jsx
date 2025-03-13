@@ -10,6 +10,8 @@ import Contact from './components/Contact'
 import LandscapeDesign from './pages/LandscapeDesign'
 import TurnkeyExecution from './pages/TurnkeyExecution'
 import './App.css';
+import ErrorPage from './pages/ErrorPage'
+import Decor from './pages/Decor'
 
 
 const App = () => {
@@ -25,6 +27,8 @@ const App = () => {
           <Route path='/elevation-design' element={<ElevationDesign/>}/>
           <Route path="landscape-designing" element={<LandscapeDesign/>}/>
           <Route path='/turnkey-execution' element={<TurnkeyExecution/>}/>
+          <Route path='/decor' element={<Decor/>}/>
+          <Route path='*' element={<ErrorPage/>}/>
         </Routes>
       <Footer/>
       </BrowserRouter>
