@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { MdMenu, MdClose } from 'react-icons/md';
 import { FaAngleDown } from 'react-icons/fa6';
-import BespokeFurniture from '../pages/BespokeFurniture';
+import BespokeFurniture from './Furniture';
 import Projects from '../pages/Projects';
 
 const Navbar = () => {

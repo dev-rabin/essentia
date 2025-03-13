@@ -10,7 +10,7 @@ const Decor = () => {
             <header className='my-16'>
                 <div className="text-center">
                     <p className='text-4xl font-light mx-auto mb-2 relative inline-block after:content-[""] after:block after:w-[120px] after:h-[1px] after:bg-black after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-[-14px]'>
-                        About Essentia Environments: Crafting Timeless Luxury Spaces
+                    exclusive décor solutions: elevate your interiors with art & style
                     </p>
                 </div>
             </header>
