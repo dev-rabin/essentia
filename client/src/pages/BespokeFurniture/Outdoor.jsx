@@ -64,9 +64,11 @@ const ProductCard = ({ product }) => {
     const [isHovered, setIsHovered] = useState(false);
 
     const buttonStyle = {
-        padding: "8px 30px",
+        padding: "6px 30px",
         background: "transparent",
         border: "1px solid black",
+        fontSize: "20px",
+        letterSpacing:"1px",
         borderRadius: "30px",
         cursor: "pointer",
         transition: "all 0.5s ease-in-out",
