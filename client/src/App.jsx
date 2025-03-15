@@ -12,7 +12,9 @@ import TurnkeyExecution from './pages/TurnkeyExecution'
 import './App.css';
 import ErrorPage from './pages/ErrorPage'
 import Decor from './pages/Decor'
-import BespokeFurniture from './pages/BespokeFurniture'
+import BespokeFurniture from './pages/BespokeFurniture/BespokeFurniture'
+import Interior from './pages/BespokeFurniture/Interior'
+import Outdoor from './pages/BespokeFurniture/Outdoor'
 
 
 const App = () => {
@@ -29,6 +31,8 @@ const App = () => {
           <Route path="landscape-designing" element={<LandscapeDesign/>}/>
           <Route path='/turnkey-execution' element={<TurnkeyExecution/>}/>
           <Route path='/bespoke-furniture' element={<BespokeFurniture/>}/>
+          <Route path='/bespoke-furniture-indoor' element={<Interior/>}/>
+          <Route path='/bespoke-furniture-outdoor' element={<Outdoor/>}/>
           <Route path='/decor' element={<Decor/>}/>
           <Route path='*' element={<ErrorPage/>}/>
         </Routes>

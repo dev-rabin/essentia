@@ -1,7 +1,8 @@
 import React from 'react';
-import Interior2 from "../assets/img/interior2.jpg";
-import Sofa from "../assets/img/sofa.png";
-import Table from "../assets/img/outdoor_furniture.png";
+import Interior2 from "../../assets/img/interior2.jpg";
+import Sofa from "../../assets/img/sofa.png";
+import Table from "../../assets/img/outdoor_furniture.png";
+import { Link } from 'react-router-dom';
 
 const BespokeFurniture = () => {
   return (
@@ -40,11 +41,15 @@ const BespokeFurniture = () => {
                       <div className='flex justify-around items-center gap-5 flex-wrap'>
                         <div className='flex flex-col items-center gap-4'>
                             <img src={Sofa} alt="" className='h-56 w-56 object-cover'/>
-                            <button className='py-1 px-3 bg-black text-white'>Indoor Furniture</button>
+                           <Link to='/bespoke-furniture-indoor'>
+                           <button className='py-1 px-3 bg-black text-white cursor-pointer'>Indoor Furniture</button>
+                           </Link>
                         </div>
                         <div className='flex flex-col items-center gap-4'>
                             <img src={Table} alt="" className='h-56 w-56 object-cover'/>
-                            <button className='py-1 px-3 bg-black text-white'>outdoor Furniture</button>
+                            <Link to="/bespoke-furniture-outdoor">
+                            <button className='py-1 px-3 bg-black text-white cursor-pointer'>outdoor Furniture</button>
+                            </Link>
                         </div>
                       </div>
                   </main>
