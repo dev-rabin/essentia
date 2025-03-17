@@ -22,6 +22,9 @@ app.get("/", (req, res) => {
 const ContactRoute = require("./src/routes/contact_routes");
 app.use("/api", ContactRoute);
 
+const UserRoute = require("./src/routes/user_routes");
+app.use("/api", UserRoute);
+
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 })

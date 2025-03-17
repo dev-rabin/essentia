@@ -15,6 +15,8 @@ import Decor from './pages/Decor'
 import BespokeFurniture from './pages/BespokeFurniture/BespokeFurniture'
 import Interior from './pages/BespokeFurniture/Interior'
 import Outdoor from './pages/BespokeFurniture/Outdoor'
+import RegisterPop from './components/RegisterPop'
+import { ToastContainer } from 'react-toastify'
 
 
 const App = () => {
@@ -22,6 +24,8 @@ const App = () => {
     <>
       <BrowserRouter>
       <Navbar/>
+      <RegisterPop/>
+      <ToastContainer/>
       <Contact/>
         <Routes>
           <Route path='/' element={<Home/>}/>
