@@ -11,7 +11,7 @@ const Navbar = () => {
   const [projectsMenu, setProjectsMenu] = useState(false);
 
   return (
-    <div className='bg-[#FFFFFF] text-[#000000] flex justify-between items-center px-6 lg:px-8 py-3 fixed top-0 w-full z-10 shadow-md'>
+    <div className='bg-[#FFFFFF] text-[#000000] flex justify-between items-center px-6 lg:px-8 py-3 fixed top-0 w-full z-10'>
       {/* Left Links */}
       <div className='hidden lg:flex items-center gap-3 text-sm font-semibold'>
         <Link to='/about-us' className='no-underline text-inherit hover:text-[#B97B4F]'>
@@ -32,7 +32,7 @@ const Navbar = () => {
       <div className='text-center flex-1'>
         <Link to='/' className='no-underline text-inherit'>
           <p className='text-3xl md:text-4xl lg:text-3xl xl:text-4xl text-[#1B1B1B] font-semibold logo-heading'>
-            shub shiv living<span className='text-lg'>&reg;</span>
+            Shub Shiv Living<span className='text-lg'>&reg;</span>
           </p>
         </Link>
       </div>
@@ -62,9 +62,19 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu Toggle */}
-      <div className='lg:hidden'>
+      <div className='lg:hidden cursor-pointer'>
         <button onClick={() => setMenuOpen(!menuOpen)}>
-          {menuOpen ? <MdClose size={28} /> : <MdMenu size={28} />}
+          {menuOpen ? (
+            <MdClose
+              className="cursor-pointer border p-1 rounded-sm transition-all duration-200 hover:bg-black hover:text-white"
+              size={30}
+            />
+          ) : (
+            <MdMenu
+              className="cursor-pointer border p-1 rounded-sm transition-all duration-200 hover:bg-black hover:text-white"
+              size={30}
+            />
+          )}
         </button>
       </div>
 

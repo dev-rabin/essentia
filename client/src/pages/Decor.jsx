@@ -5,9 +5,9 @@ const Decor = () => {
     return (
         <section>
             <div>
-                <img src={Interior2} alt="" className='w-full h-[550px] object-cover ' />
+                <img src={Interior2} alt="" className='w-full h-[560px] object-cover ' />
             </div>
-            <header className='my-16'>
+            <header className='my-10'>
                 <div className="text-center">
                     <p className='text-4xl font-light mx-auto mb-2 relative inline-block after:content-[""] after:block after:w-[120px] after:h-[1px] after:bg-black after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-[-14px]'>
                     exclusive décor solutions: elevate your interiors with art & style

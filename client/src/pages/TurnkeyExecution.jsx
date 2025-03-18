@@ -11,37 +11,37 @@ const TurnkeyExecution = () => {
   return (
     <section>
       <div>
-        <img src={Interior3} alt="" className='w-full h-[550px] object-cover' />
+        <img src={Interior3} alt="" className='w-full h-[560px] object-cover' />
       </div>
-      <header className='my-16'>
+      <header className='my-10'>
         <div className="text-center">
           <p className='text-4xl font-light mx-auto mb-2 relative inline-block after:content-[""] after:block after:w-[120px] after:h-[1px] after:bg-black after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-[-14px]'>
-            turnkey interior solutions: seamless execution from concept to reality
+            Turnkey Interior Solutions: Effortless Transformation from Vision to Completion
           </p>
         </div>
       </header>
       <main className='w-[80%] mx-auto text-justify my-10 text-gray-700 text-lg font-light'>
         <p className='my-8'>
-          In the realm of high-end interior design, the complexities of managing multiple contractors and coordinating various design elements can often overshadow the excitement of creating a dream space. Essentia Environments understands this challenge, which is why we specialize in providing comprehensive <strong>end-to-end turnkey interior design solutions</strong>. We alleviate the stress and streamline the process, positioning ourselves as your trusted <strong>Turnkey Interior designer</strong>.
+          In the world of <strong>luxury interior design</strong>, managing multiple contractors and synchronizing diverse design elements can become overwhelming, taking away from the joy of crafting your dream space. Shub Shiv Living recognizes this challenge and offers <strong>seamless turnkey interior solutions</strong> that handle every detail from conception to completion. With our expertise, we simplify the process, ensuring a stress-free experience while delivering a space that perfectly reflects your vision. As your trusted turnkey interior designer, we bring efficiency, elegance, and excellence to every project.
         </p>
         <p className='my-8'>
-          Our approach is built on a foundation of meticulous planning and disciplined execution. We believe that a successful project is not just about aesthetics; it’s also about efficiency and reliability. Our dedicated team operates with a commitment to on-time, within-budget delivery, ensuring that your vision is realized without any unexpected delays or cost overruns. This unwavering dedication allows us to provide a <strong>seamless</strong> experience from concept to completion.
-        </p>
-
-        <p className='my-8'>
-          We recognize that our clientele often possesses demanding, high-end visions. These visions, while inspiring, can present significant logistical challenges. Essentia Environments excels at transforming these intricate concepts into flawlessly executed <strong>luxury</strong> realities. Our expertise in project management and our network of trusted contractors enable us to navigate complexities with ease, ensuring that every detail is meticulously addressed.
+          At Shub Shiv Living, our approach is rooted in meticulous planning and precise execution, ensuring that every project is as efficient as it is <strong>aesthetically stunning</strong>. We understand that true success in turnkey interior solutions goes beyond design—it requires timely delivery, budget adherence, and seamless coordination. Our dedicated team works relentlessly to bring your vision to life without unexpected delays or cost overruns, offering a <strong>stress-free and reliable experience</strong> from concept to completion.
         </p>
 
         <p className='my-8'>
-          Our <strong>solutions</strong> are designed to provide a stress-free experience, allowing you to focus on the excitement of seeing your dream space come to life. We handle all aspects of the project, from initial design consultations and material selection to construction, installation, and final styling. This comprehensive approach eliminates the need for you to juggle multiple contractors and manage disparate timelines.
+        At Shub Shiv Living, we understand that our clients have distinctive, high-end aspirations that demand precision and excellence. While these grand visions can pose logistical challenges, our expertise in project management and our network of trusted professionals allow us to seamlessly transform intricate concepts into stunning luxury realities. With a commitment to flawless execution, we ensure that every detail is <strong>meticulously crafted</strong>, delivering interiors that exude refinement and sophistication.
         </p>
 
         <p className='my-8'>
-          Essentia Environments is committed to <strong>offering</strong> a level of service that transcends expectations. We believe in building strong client relationships based on trust, transparency, and open communication. We keep you informed at every stage of the process, providing regular updates and addressing any concerns promptly. Our goal is to create a collaborative environment where your voice is heard, and your vision is realized.
+        At Shub Shiv Living, our turnkey interior solutions are crafted to offer a hassle-free experience, allowing you to enjoy the journey of bringing your dream space to life. <strong>From initial consultations and material selection to construction, installation, and final styling</strong>, we handle every detail with precision and care. Our comprehensive approach ensures a seamless execution, eliminating the need for you to coordinate multiple contractors or manage complex timelines. With us, your vision is realized effortlessly and elegantly.
         </p>
 
         <p className='my-8'>
-          The true essence of our <strong>end-to-end turnkey interior design solutions</strong> lies in our ability to deliver a <strong>seamless</strong> and luxurious experience. We understand that your time is valuable, and we strive to maximize efficiency without compromising quality. By entrusting your project to Essentia Environments, you can be confident that your dream space will be transformed into a tangible reality with a level of sophistication and refinement that reflects your unique style and discerning taste. Our commitment to excellence makes us the premier <strong>turnkey Interior designer</strong> of choice.
+        At Shub Shiv Living, we are dedicated to delivering exceptional service that goes beyond expectations. We prioritize trust, transparency, and open communication, ensuring a smooth and collaborative experience. Our team keeps you informed at every stage, providing regular updates and addressing any concerns promptly. By fostering a <strong>client-focused approach</strong>, we create an environment where your ideas are valued, and <strong>your vision comes to life</strong> with precision and care.
+        </p>
+
+        <p className='my-8'>
+        The true essence of our turnkey interior solutions lies in our ability to provide a seamless and luxurious experience. At Shub Shiv Living, we recognize the value of your time and ensure efficient execution without compromising quality. By entrusting your project to us, you can be assured that your dream space will be brought to life with sophistication and precision, reflecting your distinctive style and refined taste. Our <strong>unwavering commitment to excellence</strong> positions us as the preferred choice for <strong>turnkey interior solutions</strong>.
         </p>
       </main>
 

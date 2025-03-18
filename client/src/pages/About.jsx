@@ -8,33 +8,33 @@ const About = () => {
         <>
             <section>
                 <div>
-                    <img src={Interior2} alt="" className='w-full h-[550px] object-cover ' />
+                    <img src={Interior2} alt="" className='w-full h-[560px] object-cover ' />
                 </div>
-                <header className='my-16'>
+                <header className='my-10'>
                     <div className="text-center">
                         <p className='text-4xl font-light mx-auto mb-2 relative inline-block after:content-[""] after:block after:w-[120px] after:h-[1px] after:bg-black after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-[-14px]'>
-                            About Essentia Environments: Crafting Timeless Luxury Spaces
+                        About Shub Shiv Living: Elevating Luxury & Timeless Design
                         </p>
                     </div>
                 </header>
                 <main className='w-[80%] mx-auto text-justify my-10 text-gray-700 text-lg font-light'>
                     <p className='my-8'>
-                        At Essentia Environments, we believe that beauty is not a luxury reserved for the privileged, but a basic necessity for all. Grace and elegance should be inherent in our surroundings, reflecting our desire to live artistically in spaces that enhance our sense of being.
+                    At <strong>Shub Shiv Living</strong>, we believe that beautifully designed spaces are not just about aesthetics—they are essential for a fulfilling life. True elegance is a seamless blend of artistry and functionality, creating environments that inspire and enrich daily living.
                     </p>
                     <p className='my-8'>
-                        <strong>Essentia Environments</strong> embodies global refinement and indigenous design sensibilities, merging contemporary and classic styles to prioritize the preferences of our client’s interiors. As India’s premier design and build company, we offer innovative, full-service solutions, from interior architectural services to the manufacturing of bespoke pieces. Established in 1999, our mission is to deliver comprehensive design, turnkey build solutions, and top-quality furniture, wardrobes, millwork, and decor accessories to our discerning clientele.
-                    </p>
-
-                    <p className='my-8'>
-                        <strong> For the past 25 years</strong>, we have been crafting dream spaces, redefining elegant luxury, and fostering lifelong relationships that are the cornerstone of our firm. Our brand is characterized by an original and personal signature, synonymous with innovation, style, and sophistication.
+                    Merging contemporary sophistication with classic craftsmanship, <strong>Shub Shiv Living</strong> is a leading design and build company offering bespoke solutions for interiors, architecture, and furniture manufacturing. With a keen eye for detail and a passion for innovation, we create exquisite spaces that reflect the unique personalities of our clients.
                     </p>
 
                     <p className='my-8'>
-                        “We consciously design spaces that are clean and clutter-free, enhancing the positives of a site, and camouflaging the negatives. Above all, we strive for simplicity, adding sophistication to our work,” says Monica, Creative Head and Co-Founder of Essentia.
+                    <strong>For over a decade</strong>, we have redefined luxury by delivering fully customized, high-end interiors that balance comfort and style. From conceptualization to execution, our in-house team ensures every project meets the highest standards of craftsmanship and excellence.
                     </p>
 
                     <p className='my-8'>
-                        At Essentia Environments, our goal is to transform the lives of our patrons by creating wondrous, comfortable, and practical spaces, where luxury and elegance are ever-present. Our complete in-house capability to execute designs from our creative team sets us apart, and our large team of professionals, coupled with unparalleled manufacturing support, enables us to handle multiple projects across various locations, with both skill and confidence.
+                    "We believe in designing spaces that are not only visually stunning but also deeply functional—enhancing the positives of every site while seamlessly integrating elegance and practicality."
+                    </p>
+
+                    <p className='my-8'>
+                    At <strong>Shub Shiv Living</strong>, we don’t just create interiors—we craft experiences that transform everyday living. With an unwavering commitment to quality, creativity, and precision, we continue to design and execute spaces that stand the test of time.
                     </p>
 
                     <p className='my-8'>
@@ -47,8 +47,8 @@ const About = () => {
                             vision
                         </p>
                     </div>
-                    <p className='w-[80%] mx-auto text-justify my-10 text-gray-700 text-lg font-light'>
-                        To make the lives of our customers better through elevating their lifestyle and filling their lives with joy by making their living and work spaces functional, timeless, and above all luxurious
+                    <p className='w-[80%] mx-auto text-center my-10 text-gray-700 text-lg font-light'>
+                    Our mission is to enrich our customers' lives by designing living and workspaces that are not only functional but also exude timeless luxury. We strive to elevate lifestyles by crafting elegant, sophisticated environments that inspire joy, comfort, and a true sense of belonging.
                     </p>
                 </header>
                 <Milestones title="milestones" />
@@ -61,13 +61,11 @@ const About = () => {
                     </header>
                     <main className='w-[80%] mx-auto text-justify my-10 text-gray-700 text-lg font-light'>
                         <ul className="list-disc pl-5">
-                            <li>to Build lifelong relationships with our customers by providing them with VALUE-oriented services and products for their living and work spaces.</li>
-                            <li>to Provide our employees with a safe and friendly work environment with unwavering focus on their career growth, continuous learning, fun, and stability.</li>
-                            <li>to build partnerships with our suppliers, vendors & partners based upon trust, respect, and mutual benefit.</li>
+                            <li><strong>Fostering Lasting Relationships</strong> – We prioritize building lifelong connections with our customers by delivering exceptional value-driven services and products that enhance their living and workspaces.</li>
+                            <li><strong>Empowering Our Team</strong> – We cultivate a safe, inclusive, and dynamic workplace where employees thrive through continuous learning, career growth, and a balance of productivity and enjoyment.</li>
+                            <li><strong>Strengthening Partnerships</strong> – We collaborate with suppliers, vendors, and partners based on a foundation of trust, integrity, and shared success, ensuring mutual growth and innovation.</li>
                             <li>
-                                to Contribute positively to the community by embodying goodness, productivity, and focus on growth.
-                                Our designs prioritize sustainability, Make in India & fostering environmental well-being.
-                                Having global and refined sensibilities yet Proudly Swadeshi and indigenous, we intend to make a positive and meaningful impact locally and beyond.
+                            <strong>Creating a Positive Impact</strong> – Committed to sustainability and the "Make in India" initiative, we blend global sophistication with indigenous craftsmanship to contribute meaningfully to the environment, community, and beyond.
                             </li>
                         </ul>
                     </main>

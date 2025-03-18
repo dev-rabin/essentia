@@ -15,7 +15,7 @@ const Outdoor = () => {
     return (
         <section>
             <div className="relative">
-                <img src={Interior2} alt="" className="w-full h-[550px] object-cover" />
+                <img src={Interior2} alt="" className="w-full h-[560px] object-cover" />
                 <p className="absolute inset-0 flex items-center justify-center text-white text-4xl bg-transparent">
                     outdoor furniture
                 </p>

@@ -17,10 +17,10 @@ const RegisterPop = () => {
 
   useEffect(() => {
     const isRegistered = localStorage.getItem("registeredUserPopUp");
-    if(!isRegistered){
+    if (!isRegistered) {
       const timeOut = setTimeout(() => {
         setIsOpen(true);
-      },15000);
+      }, 15000);
       return () => clearTimeout(timeOut);
     }
   })
@@ -69,10 +69,10 @@ const RegisterPop = () => {
         <div className="fixed inset-0 backdrop-brightness-50 flex justify-center items-center z-50">
 
           <div className="bg-white text-black w-[600px] md:w-[700px] h-[400px] flex rounded-xl shadow-xl relative">
-            
+
             {/* Left Side: Logo & Welcome Text */}
             <div className="hidden md:flex flex-col justify-center items-center w-1/2 bg-black text-white p-6 rounded-l-xl">
-              <img src={Logo} alt="Logo" className="w-28 h-28 mb-4" />
+              <img src={Logo} alt="Logo" className="w-40 h-40 mb-4" />
               <h2 className="text-2xl font-semibold">Welcome!</h2>
               <p className="text-gray-300 text-center">
                 Stunning interiors & exteriors, designed to inspire and impress.
@@ -80,9 +80,9 @@ const RegisterPop = () => {
             </div>
 
             {/* Right Side: Registration Form */}
-            <div className="w-full md:w-1/2 p-6 flex flex-col justify-center rounded-r-xl">
+            <div className="w-full md:w-1/2 p-6 flex flex-col justify-center rounded-r-xl relative">
               <button
-                className="absolute top-4 right-4 text-gray-700 hover:text-black transition duration-200"
+                className="absolute top-4 right-4 text-gray-700 hover:text-black transition duration-200 cursor-pointer"
                 onClick={() => setIsOpen(false)}
                 disabled={loading}
               >
@@ -121,15 +121,23 @@ const RegisterPop = () => {
 
                 <button
                   type="submit"
-                  className={`w-full bg-black text-white py-2 rounded-3xl font-semibold transition duration-300 cursor-pointer ${
-                    loading ? "opacity-50 cursor-not-allowed" : "hover:bg-gray-900"
-                  }`}
+                  className={`w-full bg-black text-white py-2 rounded-3xl font-semibold transition duration-300 cursor-pointer ${loading ? "opacity-50 cursor-not-allowed" : "hover:bg-gray-900"
+                    }`}
                   disabled={loading}
                 >
                   {loading ? "Registering..." : "Register"}
                 </button>
               </form>
+
+              {/* Call Us Button */}
+              <a
+                href="tel:+919876543210" // Replace with your actual phone number
+                className="mt-3 w-full block text-center bg-black text-white py-2 rounded-3xl font-semibold transition duration-300 hover:bg-gray-900"
+              >
+              Call Us
+              </a>
             </div>
+
           </div>
         </div>
       )}

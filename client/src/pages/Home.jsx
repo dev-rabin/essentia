@@ -98,17 +98,13 @@ const Home = () => {
 
         {/* Essentia Environments */}
         <div className='py-5'>
-          <p className='text-4xl text-center font-light w-[75%] mx-auto'>Essentia Environments – India’s Premier Interior Design & Furniture Craftsmanship</p>
+          <p className='text-4xl text-center font-light w-[75%] mx-auto'>Shub Shiv Living – Redefining Luxury Interiors & Bespoke Furniture</p>
           <div className='w-[80%] mx-auto text-center my-10 text-gray-700 text-lg font-light'>
-            <p className='mb-8'>Essentia Environments reimagines luxurious living in India. As the <strong>best interior design company in India</strong>, we transform your vision from a basic concept into a spectacular reality. We stand out in India in that we provide a full design-to-build service, guaranteeing that every detail is completed properly. Imagine a home that represents your <strong>
-              unique craftsmanship
-            </strong> and taste, constructed with outstanding precision and creativity – that is the Essentia difference.</p>
-
+            <p className='mb-8'>At <strong>Shub Shiv Living</strong>, we bring your dream home to life with impeccable interior design and exquisite furniture craftsmanship. As one of India's finest interior design firms, we go beyond aesthetics to create spaces that reflect elegance, functionality, and your unique personality.</p>
             <p className='mb-8'>
-              We strongly believe your house should be a personal haven. That’s why we provide the <strong>best interior design for home</strong> – mindfully curating a selection of high-end furnishings, beautiful décor, and custom-made pieces, all tailored by our manufacturer to your specific preferences. Whether you want a modern minimalist style or a classic, sumptuous design, our team combines sophistication and functionality to create all the spaces.
+            What sets us apart is our <strong>end-to-end design and execution</strong> approach. From concept to completion, we ensure every detail is meticulously crafted, offering a seamless experience that transforms your vision into reality. Imagine a home that embodies luxury, sophistication, and timeless beauty – that’s the essence of <strong>Shub Shiv Living</strong>.   We believe that every home should be a <strong>personal sanctuary</strong>. That’s why we offer <strong>bespoke interior solutions</strong>, carefully curating high-end furniture, statement décor, and custom-designed pieces that align with your style and preferences. Whether you desire a sleek contemporary aesthetic or a grand classical ambiance, our team masterfully blends innovation with craftsmanship to create breathtaking interiors.
             </p>
-
-            <p> At Essentia Environments, we’re not just designing rooms; we’re crafting premier experiences.</p>
+            <p> At <strong>Shub Shiv Living</strong>, we don’t just design spaces – we create extraordinary living experiences.</p>
           </div>
         </div>
 
@@ -132,7 +128,7 @@ const Home = () => {
             >
               <div><img src={Interior1} alt="" className='h-48 w-96 object-cover' /></div>
               <div>Interior design</div>
-              <p className='text-center w-96 text-gray-600 font-light'>we are a multi-disciplinary team with a vast suite of capabilities.</p>
+              <p className='text-center w-96 text-gray-600 font-light'>We are a diverse team of experts, bringing a wealth of skills and creativity across multiple disciplines.</p>
             </motion.div>
 
             {/* Center Div - Slides from Bottom */}
@@ -145,7 +141,7 @@ const Home = () => {
             >
               <div><img src={Interior2} alt="" className='h-48 w-96 object-cover' /></div>
               <div>bespoke furniture</div>
-              <p className='text-center w-96 text-gray-600 font-light'>indigenous design sense reflective of the contemporary and classic mores is our philosophy.</p>
+              <p className='text-center w-96 text-gray-600 font-light'>Our design philosophy merges contemporary trends with classic elegance for timeless, sophisticated spaces.</p>
             </motion.div>
 
             {/* Right Div - Slides from Right */}
@@ -158,7 +154,7 @@ const Home = () => {
             >
               <div><img src={Interior3} alt="" className='h-48 w-96 object-cover' /></div>
               <div>decor</div>
-              <p className='text-center w-96 text-gray-600 font-light'>we create spaces that enhance the sense of being to bring joy and beauty to our patrons’ lives.</p>
+              <p className='text-center w-96 text-gray-600 font-light'>We design spaces that inspire joy, beauty, and a deep sense of belonging.</p>
             </motion.div>
           </div>
         </div>
@@ -181,7 +177,7 @@ const Home = () => {
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
             >
               <div><img src={Exterior2} alt="" className='h-72 w-[550px]' /></div>
-              <p className='text-center my-4 text-lg font-light'>trends fade. it is the style that speaks for itself and stays</p>
+              <p className='text-center my-4 text-lg font-light'>Trends come and go, but true style remains timeless and speaks for itself.</p>
             </motion.div>
             <motion.div
               initial={{ x: 100, opacity: 0 }}
@@ -190,7 +186,7 @@ const Home = () => {
               transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
             >
               <div><img src={Exterior2} alt="" className='h-72 w-[550px]' /></div>
-              <p className='text-center my-4 text-lg font-light'>trends fade. it is the style that speaks for itself and stays</p>
+              <p className='text-center my-4 text-lg font-light'>Design isn’t just about appearance; it’s about functionality and purpose.</p>
             </motion.div>
           </div>
         </div>

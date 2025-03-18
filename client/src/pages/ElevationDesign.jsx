@@ -7,33 +7,33 @@ const ElevationDesign = () => {
         <>
             <section>
                 <div>
-                    <img src={ElevationPic} alt="" className='w-full h-[550px] object-cover' />
+                    <img src={ElevationPic} alt="" className='w-full h-[560px] object-cover' />
                 </div>
-                <header className='my-16'>
+                <header className='my-10'>
                     <div className="text-center">
                         <p className='text-4xl font-light mx-auto mb-2 relative inline-block after:content-[""] after:block after:w-[120px] after:h-[1px] after:bg-black after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-[-14px]'>
-                            About Essentia Environments: Crafting Timeless Luxury Spaces
+                            About Shub Shiv Living: Designing Elegant and Timeless Spaces
                         </p>
                     </div>
                 </header>
                 <main className='w-[80%] mx-auto text-justify my-10 text-gray-700 text-lg font-light'>
                     <p className='my-8'>
-                        Essentia Environments, an acclaimed <strong>residential interior designer in Gurgaon</strong>, specializes in creating stunning rooms that not only enhance the <strong>beauty</strong> of your space but also reflect your unique personality. Our dedicated team of talented designers and craftsmen work tirelessly to merge innovative <strong>designs</strong> with precise architectural blueprints, resulting in <strong>iconic</strong> elevations that truly express your individuality. We believe that every space should be a canvas, showcasing your tastes and lifestyle through thoughtful detailing and exceptional craftsmanship.
+                        <strong>Shub Shiv Living</strong>, a renowned residential interior designer in Gurgaon, excels in crafting exquisite spaces that not only elevate the <strong>aesthetic appeal</strong> of your home but also embody your distinct personality. Our passionate team of <strong>skilled designers and artisans</strong> seamlessly blend innovative design concepts with meticulous architectural planning, delivering iconic interiors that reflect your unique style. We believe that every home should be a masterpiece, narrating your story through intricate <strong>detailing</strong> and <strong>exceptional craftsmanship</strong>.
                     </p>
                     <p className='my-8'>
-                        From the moment we engage with you, our focus is on understanding your vision and aspirations. At Essentia Environments, we take the time to immerse ourselves in your ideas, ensuring that we grasp your style preferences, functional needs, and overall aesthetic. This comprehensive approach allows us to deliver customized design solutions that resonate deeply with our clients, solidifying our reputation as one of the <strong>best interior designers in Gurgaon</strong>.
-                    </p>
-
-                    <p className='my-8'>
-                        Utilizing only state-of-the-art materials and selections, we transform your vision into a tangible masterpiece. Every detail is meticulously considered, from the color palette to the choice of furnishings, creating a harmonious blend that is both visually <strong>stunning</strong> and pragmatically excellent. We recognize that the finest designs must also serve a purpose; hence, functionality is at the forefront of our design process. Our team integrates smart storage solutions and user-friendly layouts that enhance your living experience.
+                        From the very first interaction, Shub Shiv Living is dedicated to understanding your vision and aspirations. We take the time to <strong>immerse ourselves</strong> in your ideas, carefully considering your style preferences, functional needs, and overall aesthetic sensibilities. This <strong>client-centric</strong> approach enables us to craft personalized design solutions that truly reflect your essence, reinforcing our position as a <strong>leading interior designer in Gurgaon</strong>.
                     </p>
 
                     <p className='my-8'>
-                        Keeping abreast of the latest design trends, we continue to evolve in our approach, introducing innovative ideas that challenge traditional notions of interior design. Our commitment to excellence and client satisfaction has positioned Essentia Environments as a leader in the industry. We understand the beauty of <strong>enhancing</strong> spaces sustainably, which is why we work to incorporate eco-friendly materials and practices into our designs.
+                        At Shub Shiv Living, we bring your vision to life using only the <strong>finest materials and selections</strong>. Every element is carefully curated, from the <strong>color palette</strong> to the furnishings, ensuring a seamless fusion of aesthetic appeal and functionality. We believe that exceptional design is not just about beauty—it must also serve a purpose. That’s why our team incorporates smart storage solutions and intuitive layouts, enhancing both the <strong>visual elegance</strong> and the <strong>practicality</strong> of your space.
                     </p>
 
                     <p className='my-8'>
-                        In every sense, our mission revolves around craftsmanship and enhancing your surroundings through refinement and opulence. At Essentia Environments, we transform interiors into living expressions of sophisticated taste and personality. Our dedication to providing an exceptional design experience ensures that we are not merely creating spaces; we are crafting environments that feel truly yours.
+                    At Shub Shiv Living, we continuously evolve our approach, incorporating <strong>innovative ideas</strong> that redefine interior design. Our commitment to excellence and client satisfaction has made us a trusted name in the industry. We also prioritize sustainability, integrating <strong>eco-friendly materials</strong> and mindful practices to create spaces that are both elegant and responsible.
+                    </p>
+
+                    <p className='my-8'>
+                    At Shub Shiv Living, our mission is rooted in craftsmanship, transforming interiors into refined and luxurious spaces. We believe in designing environments that are a true reflection of <strong>sophisticated taste and individual personality</strong>. With an unwavering commitment to exceptional design, we go beyond aesthetics, ensuring that every space we create is not just visually stunning but also feels uniquely yours.
                     </p>
                 </main>
 

@@ -6,43 +6,43 @@ const LandscapeDesign = () => {
     return (
         <section>
             <div>
-                <img src={ElevationPic} alt="" className='w-full h-[550px] object-cover' />
+                <img src={ElevationPic} alt="" className='w-full h-[560px] object-cover' />
             </div>
-            <header className='my-16'>
+            <header className='my-10'>
                 <div className="text-center">
                     <p className='text-4xl font-light mx-auto mb-2 relative inline-block after:content-[""] after:block after:w-[120px] after:h-[1px] after:bg-black after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-[-14px]'>
-                        Bespoke Landscape Design: Nature-Inspired Outdoor Spaces
+                        Custom Landscape Design: Harmonizing Nature with Elegant Outdoor Spaces
                     </p>
                 </div>
             </header>
             <main className='w-[80%] mx-auto text-justify my-10 text-gray-700 text-lg font-light'>
                 <p className='my-8'>
-                    Essentia Environments, a renowned <strong>landscape design company</strong>, stands at the forefront of the <strong>landscape designing</strong> industry, specializing in the creation of elegant outdoor areas that significantly enhance your lifestyle. With a dedication to excellence and a passion for sustainable beauty, we transform luxurious residences, villas, and farmhouses into magnificent spaces that harmoniously blend classic beauty with contemporary flair.
+                    Shub Shiv Living, a distinguished landscape design firm, leads the industry in crafting exquisite outdoor spaces that elevate your lifestyle. With a commitment to exceptional design and a passion for sustainable elegance, we transform luxury homes, villas, and farmhouses into breathtaking environments that seamlessly merge timeless charm with <strong>modern sophistication</strong>.
                 </p>
                 <p className='my-8'>
-                    Our <strong>landscape design services</strong> are meticulously crafted to elevate the aesthetic appeal and functionality of your outdoor spaces. We understand that outdoor areas are an extension of your home, serving not only as a visual retreat but also as functional environments that epitomize luxurious living. Every project we undertake is a reflection of our commitment to quality, innovation, and the unique needs of our clients.
-                </p>
-
-                <p className='my-8'>
-                    Essentia Environments demonstrates expertise in taping elegance to useful design concepts. Doctors of architecture at Essentia Environments excel in translating customer ideas into beautiful final products. We shape every outdoor area to match individual homeowners’ expectations specifically through our <strong>landscape design services</strong> which cater to luxury apartments villas and farmhouses. Essentia Environments develops outdoor elements inspired by nature so you can experience natural beauty within your living environment through welcoming and restful spaces.
+                    Our landscape design solutions are thoughtfully curated to enhance both the <strong>beauty and functionality</strong> of your outdoor spaces. We recognize that these areas are more than just extensions of your home—they are tranquil sanctuaries that offer a seamless blend of luxury and nature. Whether it’s <strong>a lush green garden, an elegant patio, or a serene water feature</strong>, we meticulously craft each element to create a harmonious and inviting environment. Our team integrates cutting-edge design principles with timeless aesthetics, ensuring that every outdoor space is not only visually stunning but also highly practical. Each project we undertake embodies our dedication to excellence, creativity, and personalized design, transforming ordinary landscapes into <strong>extraordinary outdoor experiences</strong> tailored to your lifestyle.
                 </p>
 
                 <p className='my-8'>
-                    <strong> Landscape design</strong> at our company begins with a detailed knowledge base of natural environments. Our belief is that weaving nature throughout designs yields dual improvements by creating visually pleasing settings also they establish peaceful places to be. We select plant species based on local climate needs while integrating beautiful water elements and green vegetation into most of our projects. Through meticulous design, your outside spaces maintain their colorful appearance in every season which creates memorable scenery for regular daily activities along with special events.
+                    At Shub Shiv Living, we specialize in creating <strong>harmonious outdoor spaces</strong> that seamlessly blend luxury with functionality. Our team of design experts transforms visions into reality, crafting breathtaking landscapes that elevate the aesthetics and usability of your surroundings. Whether it’s premium residences, lavish villas, or serene farmhouses, our <strong>landscape design services</strong> are tailored to enhance every outdoor area with a touch of elegance. Inspired by nature’s tranquility, we integrate lush greenery, soothing water features, and bespoke outdoor elements to curate spaces that promote relaxation and well-being. At Shub Shiv Living, we believe that your outdoor space should be a sanctuary, offering a perfect balance of sophistication and natural beauty.
                 </p>
 
                 <p className='my-8'>
-                    Our landscape design company stands proud of its creative technological developments along with its sustainable approach to practice. Through our landscape facilit,y we pursue to manufacture gorgeous settings alongside eco-friendly design solutions. The trained architects from our company combine sustainable landscape techniques with visual excellence to achieve aesthetic beauty in outdoor spaces. The company’s dedication to ecological answers enables its designed landscapes to simultaneously remain gorgeous and beneficial for the surrounding environment.
+                    At Shub Shiv Living, our landscape design philosophy is rooted in a deep understanding of natural environments and their harmonious integration into outdoor spaces. We believe that incorporating nature-inspired elements not only enhances aesthetic appeal but also fosters <strong>a sense of tranquility and balance</strong>. Our designs are carefully curated, selecting plant species suited to the local climate, ensuring sustainability and year-round vibrancy. We seamlessly blend lush greenery, elegant water features, and artistic hardscapes to create captivating outdoor settings. Whether for daily relaxation or special gatherings, our landscapes provide <strong>everlasting beauty</strong> that transforms outdoor spaces into <strong>serene retreats</strong>.
                 </p>
 
                 <p className='my-8'>
-                    The experience of working with Essentia Environments is one characterized by collaboration and creativity. From our initial consultation to the final installation, we prioritize your vision, incorporating your ideas and preferences into the design process. Our goal is to ensure that the outdoor space we create not only meets your expectations but exceeds them. Our landscape design services encompass everything from concept development to maintenance, ensuring that your investment remains beautiful over time.
+                    At Shub Shiv Living, we take pride in our innovative approach to landscape design, seamlessly blending cutting-edge techniques with sustainable practices. Our goal is to craft breathtaking outdoor spaces that not only captivate but also contribute positively to the environment. Our team of expert architects integrates eco-friendly solutions with artistic vision, ensuring that every landscape is both <strong>visually stunning and environmentally responsible</strong>. By prioritizing green technologies, native plant selections, and resource-efficient designs, we create harmonious outdoor environments that thrive naturally while enhancing the beauty of any space.
+                </p>
+
+                <p className='my-8'>
+                    At Shub Shiv Living, we believe that landscape design is a collaborative journey, where your vision takes center stage. From the initial consultation to the final execution, we work closely with you to bring your outdoor dreams to life. Every element is thoughtfully curated, ensuring that the final outcome is not just visually stunning but also harmonious with your lifestyle. Our comprehensive services cover everything from <strong>conceptualization to long-term maintenance</strong>, guaranteeing that your outdoor space remains timeless, functional, and breathtaking for years to come.
                 </p>
                 <p className='my-8'>
-                    By blending beauty and utility, we create outdoor areas that represent your refined taste while providing a peaceful getaway from the hustle and bustle of everyday life. Each project we take on is an opportunity to showcase our ability to deliver elegance and sophistication, offering clients a space that feels both luxurious and welcoming.
+                    At Shub Shiv Living, we seamlessly merge aesthetics with functionality, crafting outdoor spaces that reflect your sophisticated lifestyle while serving as a tranquil escape from daily life. Every project is a testament to our commitment to refined design and superior craftsmanship, ensuring that your outdoor environment exudes both <strong>luxury and warmth</strong>, making it an inviting retreat for relaxation and rejuvenation.
                 </p>
                 <p className='my-8'>
-                    In summary, Essentia Environments is your premier partner in landscape designing. As a distinguished landscape design company, we are dedicated to enhancing your outdoor living experience through our comprehensive landscape design services. Our <strong>nature-inspired</strong> designs, created by talented <strong>architects</strong>, are tailored to elevate your property’s beauty and functionality. With us, you can expect a harmonious blend of art and nature that transforms your outdoor spaces into exquisite retreats for relaxation and enjoyment. Experience the Essentia difference and let us craft an outdoor sanctuary that perfectly complements your lifestyle.
+                    In summary, Shub Shiv Living is your trusted partner in landscape design, committed to enhancing your outdoor living experience with thoughtfully curated spaces. As a leading landscape design firm, we specialize in creating nature-inspired environments that seamlessly blend <strong>elegance and functionality</strong>. Our expert team ensures that every project enhances your property’s aesthetic appeal while providing a serene retreat for relaxation and leisure. With a deep appreciation for art and nature, we craft outdoor sanctuaries that perfectly align with your lifestyle, transforming your spaces into luxurious, tranquil havens.
                 </p>
             </main>
         </section>
