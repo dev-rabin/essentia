@@ -16,7 +16,7 @@ const TurnkeyExecution = () => {
       <header className='my-10'>
         <div className="text-center">
           <p className='text-4xl font-light mx-auto mb-2 relative inline-block after:content-[""] after:block after:w-[120px] after:h-[1px] after:bg-black after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-[-14px]'>
-            Turnkey Interior Solutions: Effortless Transformation from Vision to Completion
+            Portfolio
           </p>
         </div>
       </header>

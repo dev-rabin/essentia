@@ -4,6 +4,7 @@ import { MdMenu, MdClose } from 'react-icons/md';
 import { FaAngleDown } from 'react-icons/fa6';
 import BespokeFurniture from './Furniture';
 import Projects from '../pages/Projects';
+import Logo from '../assets/img/ssl_logo.jpeg';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,35 +12,37 @@ const Navbar = () => {
   const [projectsMenu, setProjectsMenu] = useState(false);
 
   return (
-    <div className='bg-[#FFFFFF] text-[#000000] flex justify-between items-center px-6 lg:px-8 py-3 fixed top-0 w-full z-10'>
-      {/* Left Links */}
-      <div className='hidden lg:flex items-center gap-3 text-sm font-semibold'>
-        <Link to='/about-us' className='no-underline text-inherit hover:text-[#B97B4F]'>
-          about us
-        </Link>
-        <Link to='/interiors-and-designs' className='no-underline text-inherit hover:text-[#B97B4F]'>
-          interior design
-        </Link>
-        <Link to='/elevation-design' className='no-underline text-inherit hover:text-[#B97B4F]'>
-          elevation design
-        </Link>
-        <Link to='/landscape-designing' className='no-underline text-inherit hover:text-[#B97B4F]'>
-          landscape design
-        </Link>
-      </div>
-
+    <div className='bg-[#FFFFFF] text-[#000000] flex justify-between items-center px-6 lg:px-10 py-3 fixed top-0 w-full z-10'>
       {/* Logo */}
-      <div className='text-center flex-1'>
-        <Link to='/' className='no-underline text-inherit'>
-          <p className='text-3xl md:text-4xl lg:text-3xl xl:text-4xl text-[#1B1B1B] font-semibold logo-heading'>
+      <div className='text-center'>
+        <Link to='/' className='no-underline flex items-center gap-4'>
+        <img src={Logo} alt="" className='w-10 h-10'/>
+          <p className='text-3xl md:text-4xl lg:text-3xl xl:text-3xl text-[#1B1B1B] font-semibold logo-heading uppercase'>
             Shub Shiv Living<span className='text-lg'>&reg;</span>
           </p>
         </Link>
       </div>
 
-      {/* Right Links */}
-      <div className='hidden lg:flex items-center text-sm gap-3 font-semibold'>
-        <div
+      <div className='hidden lg:flex items-center w-2/5 justify-around'>
+      <Link to='/' className='no-underline text-inherit hover:text-[#B97B4F]'>
+          Home
+        </Link>
+        <Link to='/about-us' className='no-underline text-inherit hover:text-[#B97B4F]'>
+          About Us
+        </Link>
+        <Link to='/services' className='no-underline text-inherit hover:text-[#B97B4F] py-5'>
+          Service
+        </Link>
+        <Link to='/portfolio' className='no-underline text-inherit hover:text-[#B97B4F]'>
+          Portfolio
+        </Link>
+        <Link to='/elevation-design' className='no-underline text-inherit hover:text-[#B97B4F]'>
+          Careers
+        </Link>
+        {/* <Link to='/landscape-designing' className='no-underline text-inherit hover:text-[#B97B4F]'>
+          landscape design
+        </Link> */}
+        {/* <div
           className='relative cursor-pointer'
           onMouseEnter={() => setBespokeMenu(true)}
           onMouseLeave={() => setBespokeMenu(false)}
@@ -47,18 +50,16 @@ const Navbar = () => {
           <div className='flex items-center gap-1 px-2 py-5 hover:text-[#B97B4F]'>
             bespoke furniture <FaAngleDown />
           </div>
-        </div>
+        </div> */}
 
-        <div
+        {/* <div
           className='cursor-pointer px-2 py-5 flex items-center gap-1 hover:text-[#B97B4F]'
           onMouseEnter={() => setProjectsMenu(true)}
           onMouseLeave={() => setProjectsMenu(false)}
         >
           projects <FaAngleDown />
-        </div>
-        <Link to='/turnkey-execution' className='no-underline text-inherit hover:text-[#B97B4F] px-2 py-5'>
-          turnkey execution
-        </Link>
+        </div> */}
+      
       </div>
 
       {/* Mobile Menu Toggle */}
